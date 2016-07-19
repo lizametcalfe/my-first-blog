@@ -4,19 +4,15 @@
     </head>
     <body>
         <div>
-            <h1><a href="">Liz's Blog</a></h1>
+            <h1><a href="/">Django Girls Blog</a></h1>
         </div>
 
-        <div>
-            <p>published: 19.07.2016, 16:14</p>
-            <h2><a href="">My first post</a></h2>
-            <p>This is the start of my Django experience, I am finding it reasonably straight forward and the tutorials avaliable are very good. I look forward to developing this website and added more graphics/interacting aspects.</p>
-        </div>
-
-        <div>
-            <p>published: 14.06.2014, 12:14</p>
-            <h2><a href="">My second post</a></h2>
-            <p>This is actually being written a the same time as the above post so I have nothing more to add.</p>
-        </div>
+        {% for post in posts %}
+            <div>
+                <p>published: {{ post.published_date }}</p>
+                <h1><a href="">{{ post.title }}</a></h1>
+                <p>{{ post.text|linebreaksbr }}</p>
+            </div>
+        {% endfor %}
     </body>
 </html>
