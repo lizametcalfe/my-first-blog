@@ -8,7 +8,7 @@ body {
 }
 
 .page-header {
-    background-color: #4C85E0;
+    background-color: #5DB4E3;
     margin-top: 45px;
     padding: 20px 20px 20px 40px;
     margin-left: 30px;
@@ -60,7 +60,7 @@ h1, h2, h3, h4 {
 }
 
 #top, #bottom, #left, #right {
-background: #4C85E0;
+background: #5DB4E3;
 position: fixed;
 }
 #left, #right {
