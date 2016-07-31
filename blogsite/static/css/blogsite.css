@@ -6,14 +6,15 @@ h1 a {
 body {
     padding-left: 15px;
     background: white url("images/UKGIF.gif") no-repeat right;
+    background-size: 250px 900px;
 }
 
 .page-header {
     background-color: #0E1C4A;
     margin-top: 30px;
-    padding: 5px 5px 20px 20px;
+    padding: 5px 50px 20px 20px;
     margin-left: 5px;
-    margin-right: 45px;
+    margin-right: 250px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -25,7 +26,7 @@ body {
 }
 
 .content {
-    margin-left: 5px;
+    margin-left: 2px;
 }
 
 h1, h2, h3, h4 {
@@ -66,8 +67,8 @@ background: #0E1C4A;
 position: fixed;
 }
 #left, #right {
-top: 0; bottom: 0; right: 0;
-width: 30px;
+top: 0; bottom: 0; left: 0;
+width: 20px;
 }
 #left { left: 0; }
 #right { right: 0; }
@@ -76,9 +77,9 @@ width: 30px;
 #right { right: 0; }
 
 #top, #bottom {
-left: 0; right: 0;
-height: 0px;
-}
+#left: 0; right: 0;
+#height: 0px;
+#}
 
 #top, #bottom {
 left: 0; right: 0;
@@ -86,3 +87,4 @@ height: 0px;
 }
 #top { top: 0; }
 #bottom { bottom: 0; }
+#right { right: 0; }
