@@ -82,8 +82,8 @@ width: 30px;
 #}
 
 #top, #bottom {
-left: 0; right: 0; bottom: 0;
-height: 0px;
+left: 0; right: 0;
+height: 10px;
 }
 #top { top: 0; }
 #bottom { bottom: 0; }
